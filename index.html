@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIYABI - Zenless Zone Zero</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page 1 -->
+    <section id="page1" class="page active">
+        <div class="container">
+            <div class="text-content">
+                <h1 class="main-title">MIYABI</h1>
+            </div>
+            <div class="image-content">
+                <img src="assets/images/trigger.png" alt="Trigger" class="character-image">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll down</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- Page 2 -->
+    <section id="page2" class="page">
+        <div class="gallery-container">
+            <h2 class="gallery-title">GALERY</h2>
+            <div class="image-line">
+                <div class="image-track">
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img1.jpg" alt="Trigger Image 1">
+                    </div>
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img2.jpg" alt="Trigger Image 2">
+                    </div>
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img3.jpg" alt="Trigger Image 3">
+                    </div>
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img4.jpg" alt="Trigger Image 4">
+                    </div>
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img5.jpg" alt="Trigger Image 5">
+                    </div>
+                    <!-- Дублируем для бесшовной анимации -->
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img1.jpg" alt="Trigger Image 1">
+                    </div>
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img2.jpg" alt="Trigger Image 2">
+                    </div>
+                    <div class="image-item">
+                        <img src="assets/images/image_line/img3.jpg" alt="Trigger Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Page 3 -->
+    <section id="page3" class="page">
+        <div class="container">
+            <div class="image-content">
+                <img src="assets/images/trigger2.png" alt="Trigger" class="character-image bio-image">
+            </div>
+            <div class="text-content">
+                <h2 class="bio-title">CHARACTERISTICS</h2>
+                <div class="characteristics">
+                    <div class="char-item">
+                        <span class="char-label">Name:</span>
+                        <span class="char-value">Miyabi Hoshimi</span>
+                    </div>
+                    <div class="char-item">
+                        <span class="char-label">Role:</span>
+                        <span class="char-value">Void Hunter / Section 6 Commander</span>
+                    </div>
+                    <div class="char-item">
+                        <span class="char-label">Clan:</span>
+                        <span class="char-value">Hoshimi Clan</span>
+                    </div>
+                    <div class="char-item">
+                        <span class="char-label">Height:</span>
+                        <span class="char-value">170 cm</span>
+                    </div>
+                    <div class="char-item">
+                        <span class="char-label">Special Ability:</span>
+                        <span class="char-value">Tailless Katana – Cursed Blade</span>
+                    </div>
+                </div>
+                
+                <h2 class="bio-title">BIOGRAPHY</h2>
+                <div class="bio-text">
+                    <p id="typed-text">
+                        Miyabi Hoshimi is the youngest Void Hunter in New Eridu and the commander of Section 6. She hails from the prestigious Hoshimi Clan, renowned for their martial arts mastery. Despite her status, she focuses on field operations rather than administrative tasks. Wielding the cursed katana "Tailless," Miyabi combines traditional combat techniques with unique abilities, maintaining order and confronting corruption in New Eridu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 4 -->
+    <section id="page4" class="page">
+        <div class="container">
+            <div class="text-content">
+                <h2 class="links-title">OFFICIAL RESOURCES</h2>
+                <div class="links-container">
+                    <a href="https://zenless.hoyoverse.com/en-us" class="official-link" target="_blank">
+                        <span class="link-icon">🎮</span>
+                        Official Zenless Zone Zero Website
+                    </a>
+                    <a href="https://www.hoyoverse.com" class="official-link" target="_blank">
+                        <span class="link-icon">🏢</span>
+                        HoYoverse Official Site
+                    </a>
+                    <a href="https://twitter.com/ZZZ_EN" class="official-link" target="_blank">
+                        <span class="link-icon">🐦</span>
+                        Official Twitter
+                    </a>
+                    <a href="https://www.youtube.com/c/ZenlessZoneZero" class="official-link" target="_blank">
+                        <span class="link-icon">📺</span>
+                        Official YouTube
+                    </a>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="assets/images/trigger3.png" alt="Trigger" class="character-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="page-nav">
+        <button class="nav-dot active" data-page="1"></button>
+        <button class="nav-dot" data-page="2"></button>
+        <button class="nav-dot" data-page="3"></button>
+        <button class="nav-dot" data-page="4"></button>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
